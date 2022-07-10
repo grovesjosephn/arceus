@@ -1,0 +1,17 @@
+{
+  "name": "arceus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Arceus is a generator utility library, like lodash but built around lazy evaluation and generator functions. This is not a serious project, just built for exploration of generators.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["generator", "generators", "utils", "lodash", "underscore", "ramda"],
+  "author": "Joseph Groves",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^6.1.3"
+  }
+}
